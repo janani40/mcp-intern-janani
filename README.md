@@ -22,8 +22,8 @@ Bad input (negative amount, wrong date or month format, empty category) returns 
 ## Setup (Windows PowerShell)
 
 ```
-git clone https://github.com/<your-username>/mcp-intern-<janani>.git
-cd mcp-intern-<janani>
+git clone https://github.com/janani40/mcp-intern-janani.git
+cd mcp-intern-janani
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
@@ -53,8 +53,8 @@ Open Claude Desktop, go to Settings, Developer, Edit config. Add this inside `"m
 
 ```json
 "expense-tracker": {
-  "command": "C:\\path\\to\\mcp-intern-<janani>\\.venv\\Scripts\\python.exe",
-  "args": ["C:\\path\\to\\mcp-intern-<janani>\\expense_server.py"]
+  "command": "C:\\path\\to\\mcp-intern-janani\\.venv\\Scripts\\python.exe",
+  "args": ["C:\\path\\to\\mcp-intern-janani\\expense_server.py"]
 }
 ```
 
